@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaMailBulk } from "react-icons/fa";
 import AppLogo from '../../assets/images/logo1.png';
 
 const Header = () => {
@@ -17,16 +17,16 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav" style={{ margin: 'auto' }}>
-                        <li className="nav-item"><a className="nav-link active text-uppercase" aria-current="page" href="index.html">Home</a></li>
+                        <li className="nav-item"><a className="nav-link active text-uppercase" aria-current="page" href="#">Home</a></li>
                         <li className="nav-item"><a className="nav-link text-uppercase" href="#services">Services</a></li>
                         <li className="nav-item"><a className="nav-link text-uppercase" href="#why-choose-us">Why Choose Us</a></li>
                         {/* <li className="nav-item"><a className="nav-link text-uppercase" href="#faq">Technologies</a></li> */}
                         <li className="nav-item"><a className="nav-link text-uppercase" href="#accomplishments">Insights</a></li>
                     </ul>
-                    <a className="rounded-pill btn-rounded" style={{ padding: '8px 60px 8px 8px', marginTop: 5, textDecoration:'none', color: '#9926f0'}} href='tel:+923412074894' >
-                        +92 341 2074894
+                    <a className="rounded-pill btn-rounded" style={{ padding: '8px 60px 8px 8px', marginTop: 5, textDecoration:'none', color: '#9926f0'}} href='mailto:info@appdesignvalley.com' >
+                    info@appdesignvalley.com
                         <span style={{ width: '2rem', height: '2rem' }}>
-                            <FaPhoneAlt />
+                            <FaMailBulk />
                         </span>
                     </a>
                 </div>

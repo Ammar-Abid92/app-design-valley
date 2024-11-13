@@ -8,23 +8,6 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
                             <div className="contact-box__icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
-                                    strokeWidth="1" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                                    <path d="M15 7a2 2 0 0 1 2 2" />
-                                    <path d="M15 3a6 6 0 0 1 6 6" />
-                                </svg>
-                            </div>
-                            <div className="contact-box__info">
-                                <a href='tel:+923412074894' className="contact-box__info--title">+92 341 2074894</a>
-                                <p className="contact-box__info--subtitle"> Mon-Fri 9am-6pm</p>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-                            <div className="contact-box__icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
                                     strokeWidth="1" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -53,8 +36,8 @@ const Footer = () => {
                                 </svg>
                             </div>
                             <div className="contact-box__info">
-                                <a href="#" className="contact-box__info--title">Karachi, PK</a>
-                                <p className="contact-box__info--subtitle">KHI 74600, PK</p>
+                                <a href="#" className="contact-box__info--title">California, US</a>
+                                <p className="contact-box__info--subtitle">Ca 96162, US</p>
                             </div>
                         </div>
                     </div>
@@ -101,10 +84,7 @@ const Footer = () => {
                             <h5 className="text-capitalize fw-bold">contact</h5>
                             <hr className="bg-white d-inline-block mb-4 footer-clickable-links" />
                             <ul className="list-inline campany-list">
-                                <li><a href='tel:+923412074894'>+92 341 2074894</a></li>
-                                <li><a href='tel:+923102859246'>+92 310 2859246</a></li>
                                 <li><a href="mailto:info@appdesignvalley.com">info@appdesignvalley.com</a></li>
-                                
                             </ul>
                         </div>
                     </div>
